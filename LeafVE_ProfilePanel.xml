@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Frame xmlns="http://www.w3.org/1999/xhtml" id="LeafVE_ProfilePanel">
+    <Scripts>
+        <!-- Add any necessary scripts for the profile panel here -->
+    </Scripts>
+    <Layers>
+        <Layer id="NavigationTabs" anchor="TOPLEFT" width="100%" height="50">
+            <Button text="Character Info" anchor="LEFT" width="25%" />
+            <Button text="Statistics" anchor="LEFT" width="25%" />
+            <Button text="Quests" anchor="LEFT" width="25%" />
+            <Button text="Settings" anchor="LEFT" width="25%" />
+        </Layer>
+        <Layer id="LeftStatsPanel" anchor="TOPLEFT" width="30%" height="100%">
+            <ScrollFrame>
+                <FontString text="Character Statistics" />
+                <!-- Additional statistics elements go here -->
+            </ScrollFrame>
+        </Layer>
+        <Layer id="RightPlayerInfoPanel" anchor="TOPRIGHT" width="70%" height="100%">
+            <FontString text="Player Information" />
+            <!-- Additional player info elements go here -->
+        </Layer>
+    </Layers>
+</Frame>
