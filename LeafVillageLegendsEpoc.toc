@@ -2,7 +2,7 @@
 ## Title: Leaf Village Legends
 ## Notes: Wrath-era guild command panel for tracking contributions, events, and work orders
 ## Author: Methl
-## Version: 15.1
+## Version: 15.2
 ## SavedVariables: LeafVE_GlobalDB
 ## SavedVariablesPerCharacter: LeafVE_DB
 ## OptionalDeps: AtlasLoot, Blizzard_AchievementUI, Blizzard_Calendar, Blizzard_InspectUI, Blizzard_TalentUI
@@ -10,6 +10,10 @@
 LeafVE_WrathCompat.lua
 LeafVE_Protocol.lua
 LeafVE_ItemIcons.lua
+LeafVE_UI_Core.lua
+LeafVE_UI_Redesign.lua
+LeafVE_ProfilePanel.lua
+LeafVE_ProfilePanel.xml
 LeafVillageLegends.lua
 _generated_RaidSoftReserveLoot.lua
 Work order DB\Crafting.lua
